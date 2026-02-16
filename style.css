@@ -324,6 +324,14 @@
             box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
         }
 
+        .img3{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 4rem;
+          
+        }
         .project-image {
             height: 200px;
             background: linear-gradient(45deg, var(--primary-color), var(--accent-color));
@@ -332,7 +340,7 @@
         }
 
         .project-image::before {
-            content: '🎨';
+            /* content: '🎨'; */
             position: absolute;
             top: 50%;
             left: 50%;
